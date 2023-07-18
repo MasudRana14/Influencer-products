@@ -1,0 +1,141 @@
+/* This is nav bar  */
+body {
+    width: 1300px;
+    margin: 0 auto;
+    background-color: #FFF;
+}
+
+.nav-continear {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav h3 {
+    color: #3A3A3A;
+    font-size: 24px;
+    font-weight: 700;
+    width: 243px;
+    height: 52.2px;
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+nav ul {
+    display: flex;
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+    gap: 30px;
+}
+
+ul li:hover {
+    cursor: pointer;
+    color: #E02C6D;
+    background-color: rgb(204, 204, 204);
+}
+
+/* Home Page continear  */
+
+.homepage-continear {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.main-camera-title {
+    color: #3A3A3A;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.main-camera {
+    background-image: url(../images/Circle\ design.svg), linear-gradient(rgba(255, 192, 203, 0.185),rgba(255, 192, 203, 0.185));
+    border-radius: 70px;
+}
+
+.pragraph {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.btn {
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #FFF;
+    font-size: 15px;
+    padding: 10px 24px;
+    gap: 8px;
+    border: 0;
+}
+
+.btn:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+/* this is sponsor section  */
+
+.sponsor-logo-continear {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 400px;
+    margin: 150px auto;
+    gap: 50px;
+}
+
+/* This is card section  */
+
+.box-continear {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-left: 140px;
+}
+
+.box {
+    width: 250px;
+    height: 400px;
+    box-shadow: 10px 10px 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* This is feautre section  */
+
+.feauter-section {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+/* This is footer Section  */
+
+.footer-contenir {
+    background-color: #0A0826;
+}
+
+.footer-text {
+    justify-content: center;
+    color: white;
+    height: 130px;
+    text-align: center;
+    padding: 50px;
+}
