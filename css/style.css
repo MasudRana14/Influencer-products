@@ -57,7 +57,7 @@ ul li:hover {
 }
 
 .main-camera {
-    background-image: url(../images/Circle\ design.svg), linear-gradient(rgba(255, 192, 203, 0.103),rgba(255, 192, 203, 0.068));
+    background-image: url(../images/Circle\ design.svg);
     border-radius: 70px;
 }
 
