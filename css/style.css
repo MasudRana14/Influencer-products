@@ -1,6 +1,6 @@
 /* This is nav bar  */
 body {
-    width: 1300px;
+    max-width: 1400px;
     margin: 0 auto;
     background-color: #FFF;
 }
@@ -57,7 +57,7 @@ ul li:hover {
 }
 
 .main-camera {
-    background-image: url(../images/Circle\ design.svg), linear-gradient(rgba(255, 192, 203, 0.185),rgba(255, 192, 203, 0.185));
+    background-image: url(../images/Circle\ design.svg), linear-gradient(rgba(255, 192, 203, 0.103),rgba(255, 192, 203, 0.068));
     border-radius: 70px;
 }
 
@@ -97,9 +97,9 @@ ul li:hover {
 
 .box-continear {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4,1fr);
     gap: 10px;
-    margin-left: 140px;
+    margin-left: 80px;
 }
 
 .box {
